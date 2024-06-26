@@ -1,0 +1,83 @@
+body {
+  background-color: darkslategrey;
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-field {
+  border: 2px black solid;
+  border-radius: 20px;
+  background-color:rgb(205, 214, 205) ;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin: 10px 0;
+  transition: transform 1s;
+}
+
+#age_box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+p {
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: rgb(224, 50, 50);
+  margin: 0 15px;
+  text-decoration: underline;
+}
+
+#button {
+  cursor: pointer;
+  width: 125px;
+  align-self: center;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+  background-color: bisque;
+  border: 2px black solid;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+#button:hover {
+  background-color: rgb(197, 176, 150);
+}
+
+#button:active {
+  transform: scale(0.98);
+}
+
+#list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
